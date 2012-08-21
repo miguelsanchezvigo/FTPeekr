@@ -28,7 +28,7 @@ public class DetailConnectionFragment extends android.app.Fragment {
 	}
 
 	public void setText(String item) {
-	    TextView view = (TextView) getView().findViewById(R.id.detailsText);
+	    TextView view = (TextView) getView().findViewById(R.id.details_text);
 	    view.setText(item);
 	}
 }

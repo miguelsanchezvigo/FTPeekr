@@ -22,7 +22,7 @@ public class Detail extends Activity {
 	    Bundle extras = getIntent().getExtras();
 	    if (extras != null) {
 	      String s = extras.getString("value");
-	      TextView view = (TextView) findViewById(R.id.detailsText);
+	      TextView view = (TextView) findViewById(R.id.details_text);
 	      view.setText(s);
 	    }
 	}
